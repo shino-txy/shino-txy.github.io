@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="shino-txy"><title>代数结构与数理逻辑 · Shino</title><meta name="description" content="代数结构与数理逻辑笔记第一讲定理一：(1)设$*$为S上的二元运算，若有左右单位元$e_l$和$e_r$,则$e_l=e_r$。
+(2)若S关于$*$的单位元存在则必唯一。
+定理二：当S上的二元运算$*$满足结合律，且a有逆元时，a的逆元是唯一的。
+定理三：(1)设$*$为S上的二元运算，若有左右零"><meta name="keywords" content=""><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="short icon" href="/images/favicon.png" type="image/x-icon"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="stylesheet" href="/css/style.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><link rel="stylesheet" href="/css/prism.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head><body><div id="stage" class="container"><div class="row"><div id="side-bar" class="col-sm-3 col-xs-12 side-container invisible"><div class="vertical-text site-title"><h3 tabindex="-1" class="site-title-small"><a href="/" class="a-title">两天晒网 三天摸鱼</a></h3><h1 tabindex="-1" class="site-title-large"><a href="/" class="a-title">篠 （九頭竜 銀子）</a></h1><!--h6(onclick="triggerSiteNav()") Trigger--></div><br class="visible-lg visible-md visible-sm"><div id="site-nav" class="site-title-links"><ul><li><a href="/">首页</a></li><li><a href="/archives">归档</a></li><li class="soc"><a href="https://shino-txy.github.io/atom.xml" target="_blank" rel="noopener noreferrer"><i class="fa fa-rss">&nbsp;</i></a></li></ul><div class="visible-lg visible-md visible-sm site-nav-footer"><br class="site-nav-footer-br"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="https://shino-txy.github.io" rel="noopener noreferrer">shino-txy</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div><div id="main-container" class="col-sm-9 col-xs-12 main-container invisible"><div class="autopagerize_page_element"><div class="content"><div class="post-page"><div class="post-container"><p class="post-title"><a>代数结构与数理逻辑</a></p><p class="post-meta"><span class="date meta-item">发布于&nbsp;2020-03-20</span></p><p class="post-abstract"><h1 id="代数结构与数理逻辑笔记"><a href="#代数结构与数理逻辑笔记" class="headerlink" title="代数结构与数理逻辑笔记"></a>代数结构与数理逻辑笔记</h1><h3 id="第一讲"><a href="#第一讲" class="headerlink" title="第一讲"></a>第一讲</h3><p><strong>定理一</strong>：(1)设$*$为S上的二元运算，若有左右单位元$e_l$和$e_r$,则$e_l=e_r$。</p>
+<p>(2)若S关于$*$的单位元存在则必唯一。</p>
+<p><strong>定理二</strong>：当S上的二元运算$*$满足结合律，且a有逆元时，a的逆元是唯一的。</p>
+<p><strong>定理三</strong>：(1)设$*$为S上的二元运算，若有左右零元$\theta_l$和$\theta_r$,则$\theta_l=\theta_r$。</p>
+<p>(2)若S关于$*$的零元存在则必唯一。</p>
+<p><strong>同态的定义</strong>：设有两个代数系统[S;$<em>$]与[T;$·$],其中$</em>$与$·$均为二元运算。如果存在映射$\phi$：S$\rightarrow$T,使得对任意的a,b$\in$S,有：$\phi$(a$<em>$b)=$\phi$(a)$·$$\phi$(b)，其中$\phi$(a),$\phi$(b)与$\phi$(a$</em>$b)均为T中的元素。此时称$\phi$为代数系统[S;$<em>$]到代数系统[T;$·$]的一个同态映射。同态象集$\phi(S)$是T的一个子集。当$\phi(S)=T$时，$\phi$为满同态映射，称[S;$</em>$]与[T;$·$]两个系统同态。</p>
+<p><strong>定理四</strong>：设有两个代数系统[S;$*$]与[T;$·$]同态，则有：</p>
+<p>（1）若[S;$*$]满足结合律，则[T;$·$]也满足结合律；</p>
+<p>（2）若[S;$*$]满足交换律，则[T;$·$]也满足交换律；</p>
+<p>（3）若[S;$*$]有单位元$e$，则[T;$·$]也有单位元；</p>
+<p>（4）若[S;$*$]有零元，则[T;$·$]也有零元；</p>
+<p>（5）若[S;$*$]的单位元为$e$，$\phi$为满同态映射，对$a\in S$有逆元$a^{-1}$，则在[T;$·$]中$\phi(a^{-1})$为$\phi(a)$的逆元。</p>
+<p><strong>同构的定义</strong>：如果$\phi$为代数系统[S;$*$]到代数系统[T;$·$]的一个同态映射，且$\phi$是一一对应时，称两个代数系统是同构的，$\phi$是它们的一个同构映射。</p>
+<h3 id="第二讲"><a href="#第二讲" class="headerlink" title="第二讲"></a>第二讲</h3><p><strong>定义一</strong>：S的等价类全体用Š表示,即Š={[a]|a$\in$S}。这里[a]={x|a~x,x$\in$S}</p>
+<p><strong>相容等价关系的定义</strong>：设~为S上的等价关系，$<em>$ 为S上的二元运算。若对任意a,b,c,d$\in$S，当a~b，c~d时，必有a$</em>$c~b$<em>$d，则称等价关系~与运算$</em>$是相容的，称~为代数系统[S;$*$]的相容等价关系。</p>
+<p><strong>商结构的定义</strong>：对任意[a],[b]$\in$Š, [a]$\Delta$[b]=[a$<em>$b]，则由~关于$\Delta$的相容性，保证运算$\Delta$的结果与等价类的选取无关。称[Š;$\Delta$]为 [S;$</em>$]的商结构或商系统。</p>
+<p><strong>半群的定义</strong>：代数系统[S;$<em>$],当其二元运算$</em>$是可结合的,则称该系统为半群。</p>
+<p><strong>拟群的定义</strong>：设[S;$<em>$]为半群,当$</em>$在S中有单位元e,称该半群为含单位元半群或称为拟群。</p>
+<p><strong>群的定义</strong>：[S;$*$]为拟群,当S中的每一个元素都有逆元时,称为群。</p>
+<p>或：[S;$<em>$]是一个代数系统,$</em>$为定义在S上的二元运算,若满足：<br>  (1)对任意的a,b,c$\in$S有a$<em>$(b$</em>$c)=(a$<em>$b)$</em>$c(结合律);<br>  (2)存在e$\in$S,使a$<em>$e=e$</em>$a=a(单位元);<br>  (3)对任意的$a\in S$，存在$a^{-1}\in S$,使得$a<em>a^{-1}=a^{-1}</em>a=e$<br>  则称 [S;$*$]为群。</p>
+<p>如果群中的二元运算满足交换律,称该群为可交换群,也称为阿贝尔(Abel)群。</p>
+<p><strong>群的阶的定义</strong>：设[G;$<em>$]为群,当|G|=$+\infin$ 时称该群为无限群;当|G|=n&lt;$+\infin$时，称为有限群,且说群G 的阶为</em>n*</p>
+<p><strong>定理</strong>：当[G;$<em>$]为群,$a_i\in G$ (i=1…,n), 则$(a_1</em>…<em>a_n)^{-1}=a_n^{-1}</em>…*a_1^{-1 }$。</p>
+<p>定理：当[G;$<em>$]为群,$a_i\in G$(i=1…,n), 则$(a_1</em>…<em>a_n)^{-1}=a_n^{-1}</em>…*a_1^{-1}$。</p>
+<p><strong>定理</strong>：当[G;$<em>$]为交换群，任$a,b\in G$有：$(a</em>b)^n=a^n*b^n$。</p>
+<p><strong>消去律</strong>：在群[G;$<em>$]中,对任a,b,c$\in$G,有<br>  (1)a$</em>$c=b$<em>$c,则a=b。<br>  (2)c$</em>$a=c$*$b,则a=b。</p>
+<p><strong>定理</strong>：半群[G;$<em>$]是群,当且仅当<br>(1)存在e’$\in$G,对任意g$\in$G, 使得e’$</em>$g=g (即e’为左单位元)。</p>
+<p>(2)对任意g$\in$G,存在g’$\in$G使g’$*$g=e’。</p>
+<p><strong>定理</strong>：半群[G;$<em>$]是群,当且仅当对任意的a,b$\in$G,存在x,y$\in $G,使a$</em>$x=b,y$*$a=b。</p>
+<p><strong>定理</strong>：[G;$*$]是有限半群，它是群，当且仅当运算满足消去律。</p>
+<h3 id="第三讲"><a href="#第三讲" class="headerlink" title="第三讲"></a>第三讲</h3><p>T(S)表示S上所有一一变换组成的集合。T(S)={$f|f\in S^S,且f为一一对应$}<br>[T(S);$·$]是群。</p>
+<p><strong>变换群的定义</strong>:设G$\in $T(S),当[G;$\cdot$]为群时,就称该群为变换群,其中$\cdot $为一一变换的合成(复合)运算,并称为变换的乘法。</p>
+<p><strong>定理</strong>：[T(S);$\cdot$]是一个变换群。</p>
+<p><strong>置换群的定义</strong>：设S$\neq \emptyset$,|S|&lt;+$\infin$,S上的一个一一变换称为置换。S上的某些置换关于乘法运算构成群时, 就称为置换群。若|S|=n,设S={1,2,…,n},其置换全体组成的集合表示为$S_n$。</p>
+<p>[$S_n $;$\cdot$]是一个置换群, n次对称群。</p>
+<p><strong>循环置换的定义</strong>：设|S|=n, $\sigma \in S_n$, 形如:</p>
+<p><img src="代数结构.assets/image-20200324221403240.png" alt="image-20200324221403240"></p>
+<p>其中$2\le d \le n$。这种形式的置换叫做循环置换，称其循环长度为d。上述$\sigma $可写为$\sigma=(i_1,…,i_d)$，其中在变换$\sigma $下的象是自身的元素就不再写出。特别，当d=2时称为对换。</p>
+<p><strong>定理</strong>：$S_n $中的任一个置换均可分解为不含公共元的若干个循环置换的乘积。</p>
+<p><strong>推论</strong>：任意一个置换可以分解为若干个对换的乘积。</p>
+<p><strong>定理</strong>：任意一个置换可分解成对换的乘积, 这种分解是不唯一的, 但是这些对换的个数是奇数个还是偶数个却完全由置换本身确定。</p>
+<p><strong>定义</strong>：一个置换的对换分解式中, 对换因子的个数是偶数时称该置换为偶置换,否则, 称它为奇置换。</p>
+<p><strong>推论</strong>：一个长度为 k的循环置换, 当k为奇数时, 它是一个偶置换; 当k为偶数时, 它是一个奇置换。</p>
+<p><strong>推论</strong>：每个偶置换均可分解为若干个长度为 3 的循环置换的乘积, 循环置换中可以含有公共元。</p>
+<p><strong>推论</strong>：对称群$S_n$中所有偶置换组成的集合, 记为$A_n$,关于置换的乘法构成群。</p>
+<p><strong>定义</strong>：称上述[$A_n;\cdot$]为n次交待群。</p>
+<p><strong>元素的阶的定义</strong>：设G为群, e是G的单位元，对于$a\in G$, 如果存在最小正整数r，使得$a^r=e$，则称r为元素$a$的阶; 也可称$a$是r阶元。若不存在这样的r，则称$a$为无限阶元或说$a$的阶无限。</p>
+<p><strong>元素$a$的阶有限的特征</strong>：<br>    若元素$a$的阶有限，则存在$k,l\in Z(k\neq l)$,使$a^k=a^l$，<br>    如果元素$a$的任意两个幂都不相等, 则元素$a$的阶无限。</p>
+<p><strong>定理</strong>：G为群, e为群G的单位元，$a\in G$, 阶为n, 则对m$\in$Z, $a^m=e$当且仅当n|m。</p>
+<p><strong>定理</strong>：若G是有限群，则G中的每个元素的阶都是有限的。</p>
+<h3 id="第四讲"><a href="#第四讲" class="headerlink" title="第四讲"></a>第四讲</h3><p><strong>循环群的定义</strong>：群G,若有$a\in G$ , 对任$g\in G$ , 存在$k\in Z$ ,使得 $g=a^k$,就说群G可以由元素$a$生成, 是循环群;$a$为它的一个生成元。将它表示成G=($a$)。当 G的阶有限时, 称它为有限循环群; 否则称为无限循环群。</p>
+<p><strong>定理</strong>:G为循环群,a为其一个生成元,则G的结构完全由元素a的阶决定:<br>(1)当a为无限阶时,G同构于加法循环群[Z;+];<br>(2)当a的阶为n时,G同构于同余类加法循环群 [$Z_n;\bigoplus$]。</p>
+<p><strong>子群的定义</strong>：[G;·]为群,H$\in$ G且H$\ne \empty$,如果[H;·]也为群时, 称它为G的子群。</p>
+<p>必有这样的子群:G与{e}, 称为平凡子群;其他的为真子群。</p>
+<p><strong>定理</strong>：[G;·]为群,$\empty \ne H \subseteq G$,H是G的子群,当且仅当<br>(1)·关于H封闭<br>(2)任一h$\in$ H必有$h^{-1}\in H$</p>
+<p><strong>定理</strong>：[G;·]为群, $\empty \ne H \subseteq G$,H为G的子群, 当且仅当,对任a,b$\in$ H,有$a\cdot b^{-1}\in H$。</p>
+<p><strong>推论</strong>：当H为G的子群时,H的单位元就是G的单位元,对$a\in H$它在H中的逆元就是它在G中的逆元$a^{-1}$ 。</p>
+<p><strong>定理</strong>：[G;·]为群,$\empty \ne H \subseteq G$,H是G的子群,且|H|&lt;+$\infin$，当且仅当运算·在H中满足封闭性。</p>
+<p><strong>定义</strong>：设[H;$<em>$]是群[G;$</em>$]的子群，对任意a,b$\in$G，a和b关于模H同余当且仅当$a*b^{-1}\in H$记为$a\equiv b(mod\ H)$。</p>
+<p><strong>定理</strong>：G上的关于模H同余关系是等价关系。</p>
+<p><strong>定义</strong>：设[H;$<em>$]为群[G;$</em>$]的子群, 取G中一个固定元素g,用g与H中的每个元素进行乘法运算, 将其结果组成一个集合, 记为gH,即:gH={g$<em>$h|h$\in$H}称它为H的左陪集,同理定义Hg={h$</em>$g|h$\in$H}为H的右陪集。</p>
+<p><strong>引理</strong>：如果H$\subseteq$G是子群,那么任一g$\in$G所构成的陪集|gH|=|H|, |Hg|=|H|。</p>
+<p><strong>引理</strong>：H为G的子群,g1,g2$\in$G,两个右陪集Hg1与Hg2,则: 或Hg1=Hg2,或Hg1∩Hg2=$\empty$ 。</p>
+<h3 id="第五讲"><a href="#第五讲" class="headerlink" title="第五讲"></a>第五讲</h3><p>拉格朗日定理：G是群,H是G的子群,则H在G中的左陪集数与右陪集数相等.</p>
+<p>定义：H为G的子群,关于H的所有不同的左(右)陪集数叫做H在G中的指数。</p>
+<p>定理：G为有限群,H为其子群, 则H的阶可以整除G的阶,其相除的商就是H在G中的指数k。</p>
+<p>推论：G为有限群，阶为素数p，则[G;$*$]是循环群。</p>
+<p>定义：H为群G的子群,当对任意的g$\in$G,gH=Hg,称H为G的正规子群,也可称为不变子群。</p>
+<p>定理：H是G的子群, 它又是正规的, 当且仅当,对任g$\in$G,h$\in$H,有g-1hg$\in$H。</p>
+<p>设“~”为S上的等价关系，“$<em>$” 为S上的二元运算。<br>若对任意a,b,c,d$\in$S ，当a~b,c~d时，必有a$</em>$c~b$<em>$d，则称等价关系~与运算$</em>$是相容的，称~为代数系统[S;$*$]的相容等价关系。</p>
+<p>引理：[H;$<em>$]是群[G;$</em>$]的正规子群，定义关系~如下：对任意a,b$<em>$G，a~b当且仅当a$</em><script type="math/tex">b^{-1}</script>\in$H。则“~”关于$*$为相容等价关系</p>
+<p>定义:把“~”下的等价类全体构成的集合，即子群H的所有右陪集全体构成的集合，称为商集，记为G/H。</p>
+<h3 id="第六讲"><a href="#第六讲" class="headerlink" title="第六讲"></a>第六讲</h3><p>v<strong>引理**</strong>13.4<strong><strong>：</strong></strong>[<strong><strong>H;<strong>*</strong></strong></strong>]<strong><strong>是群[</strong></strong>G;<strong><strong>*</strong></strong>]<strong><strong>的正规子群，则[</strong></strong>G/H;<strong><strong>Ä</strong></strong>]<strong>**是群。</strong></p>
+</p></div><div class="share"><span>分享到</span>&nbsp;<span class="soc"><a href="javascript:(function(){EN_CLIP_HOST='http://www.evernote.com';try{var%20x=document.createElement('SCRIPT');x.type='text/javascript';x.src=EN_CLIP_HOST+'/public/bookmarkClipper.js?'+(new%20Date().getTime()/100000);document.getElementsByTagName('head')[0].appendChild(x);}catch(e){location.href=EN_CLIP_HOST+'/clip.action?url='+encodeURIComponent(location.href)+'&amp;title='+encodeURIComponent(document.title);}})();" ref="nofollow" target="_blank" class="fa fa-bookmark"></a></span><span class="soc"><a href="javascript:void((function(s,d,e){try{}catch(e){}var f=' target="_blank" rel="noopener"http://service.weibo.com/share/share.php?',u=d.location.href,p=['url=',e(u),'&amp;title=',e(d.title),'&amp;appkey=2924220432'].join('');function a(){if(!window.open([f,p].join(''),'mb',['toolbar=0,status=0,resizable=1,width=620,height=450,left=',(s.width-620)/2,',top=',(s.height-450)/2].join('')))u.href=[f,p].join('');};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0)}else{a()}})(screen,document,encodeURIComponent));" class="fa fa-weibo"></a></span><span class="soc"><a href="http://twitter.com/home?status=https://shino-txy.github.io/2020/03/20/代数结构/%20Shino%20代数结构与数理逻辑" target="_blank" rel="noopener" class="fa fa-twitter"></a></span></div><div class="pagination"><p class="clearfix"><span class="pre pagbuttons"><a role="navigation" href="/2020/03/27/test/" title="test"><i class="fa fa-angle-double-left"></i>&nbsp;上一篇: test</a></span><span>&nbsp;</span><span class="next pagbuttons"><a role="navigation" href="/2020/02/14/%E5%88%A9%E7%94%A8Hexo%E4%BB%A5%E5%8F%8Atypography%E4%B8%BB%E9%A2%98%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/" title="利用Hexo以及typography主题搭建博客">下一篇: 利用Hexo以及typography主题搭建博客&nbsp;<i class="fa fa-angle-double-right"></i></a></span></p></div></div></div></div><div class="visible-xs site-bottom-footer"><footer><p>&copy;&nbsp;2020&nbsp;<a target="_blank" href="https://shino-txy.github.io" rel="noopener noreferrer">shino-txy</a></p><p>Theme&nbsp;<a target="_blank" href="https://github.com/SumiMakito/hexo-theme-typography" rel="noopener noreferrer">Typography</a>&nbsp;by&nbsp;<a target="_blank" href="https://www.keep.moe" rel="noopener noreferrer">Makito</a></p><p>Proudly published with&nbsp;<a target="_blank" href="https://hexo.io" rel="noopener noreferrer">Hexo</a></p></footer></div></div></div></div><script src="/js/jquery-3.1.0.min.js"></script><script src="/js/bootstrap.min.js"></script><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/google-analytics.js"></script><script src="/js/typography.js"></script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.7}});</script></body></html>
