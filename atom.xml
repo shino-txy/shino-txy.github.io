@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shino-txy.github.io/"/>
-  <updated>2020-02-14T15:54:43.889Z</updated>
+  <updated>2020-03-27T09:53:54.602Z</updated>
   <id>https://shino-txy.github.io/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://shino-txy.github.io/2020/03/27/test/"/>
+    <id>https://shino-txy.github.io/2020/03/27/test/</id>
+    <published>2020-03-27T09:53:54.000Z</published>
+    <updated>2020-03-27T09:53:54.602Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>利用Hexo以及typography主题搭建博客</title>
